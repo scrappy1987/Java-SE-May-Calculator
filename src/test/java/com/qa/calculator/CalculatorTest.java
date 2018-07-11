@@ -27,8 +27,8 @@ public class CalculatorTest {
 	@Test
 	public void divideTest() {
 		Calculator calc4 = new Calculator();
-		int actualValue = calc4.divide(24, 8);
-		Assert.assertEquals(3, actualValue);
+		double actualValue = calc4.divide(24, 8);
+		Assert.assertEquals(3.0, actualValue, 0.001);
 	}
 
 }
