@@ -7,14 +7,14 @@ public class CalculatorTest {
 
 	@Test
 	public void addTest() {
-		Calculator calc = new Calculator();
+		Add calc = new Add();
 		int actualValue = calc.add(2, 2);
 		Assert.assertEquals(4, actualValue);
 	}
 	
 	@Test
 	public void subtractTest() {
-		Calculator calc = new Calculator();
+		Subtract calc = new Subtract();
 		int actualValue = calc.subtract(5, 2);
 		Assert.assertEquals(3, actualValue);
 	}
