@@ -20,19 +20,5 @@ public class CalculatorTest {
 		int actualValue = calc.sub(4,2);
 		Assert.assertEquals(2,actualValue);
 	}
-	@Test
-	public void testMulti() {
-		Calculator calc = new Calculator();
-		
-		int actualValue = calc.multiply(4,2);
-		Assert.assertEquals(8,actualValue);
-	}
 	
-	@Test
-	public void testDiv() {
-		Calculator calc = new Calculator();
-	
-		int actualValue = calc.div(4,2);
-		Assert.assertEquals(2,actualValue);
-	}
 }
