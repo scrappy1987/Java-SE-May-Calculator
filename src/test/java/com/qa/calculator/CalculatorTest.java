@@ -20,5 +20,12 @@ public class CalculatorTest {
 		Assert.assertEquals(3, actualValue);
 	}
 	
+	@Test
+	public void multiply() {
+		int actualValue = calc.multiply(5, 4);
+		Assert.assertEquals(20, actualValue);
+	}
+	
+	
 
 }
