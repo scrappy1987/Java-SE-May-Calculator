@@ -9,7 +9,6 @@ public class CalculatorTest {
 	
 	@Test
 	public void add() {
-		
 		int actualValue = calc.add(2, 2);
 		Assert.assertEquals(4, actualValue);
 	}
@@ -26,6 +25,11 @@ public class CalculatorTest {
 		Assert.assertEquals(20, actualValue);
 	}
 	
+	@Test
+	public void divide() {
+		double actualValue = calc.divide(5, 2);
+		Assert.assertEquals(2.5, actualValue, 0.01);
+	}
 	
 
 }
